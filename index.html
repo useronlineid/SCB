@@ -1,0 +1,36 @@
+!DOCTYPE html
+html lang=th
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleทำใบสั่งจ่ายtitle
+    link rel=stylesheet href=styles.css
+head
+body
+    div class=container
+        h1ทำใบสั่งจ่าย SCBh1
+        form id=paymentForm
+            label for=referenceNumberบัญชีต้นทางlabel
+            input type=text id=referenceNumber placeholder=xxx-xxx944-0 style=color#e6e6e6
+
+            label for=recipientNameจำนวนเงินต้นทางlabel
+            input type=text id=recipientName placeholder=9,168,580.00 style=color#828282
+
+            label for=accountNumberเลขบัญชี - ชื่อ-นามสกุลlabel
+            input type=text id=accountNumber placeholder=เลขบัญชี - ชื่อ-นามสกุล style=color#828282
+
+            label for=amountจำนวนเงินlabel
+            input type=text id=amount placeholder=ระบุจำนวนเงิน style=color#828282
+
+            label for=transactionDateวันที่ทำรายการlabel
+            input type=text id=transactionDate placeholder=วันเดือนปี เวลา style=color#828282
+            
+             label for=transactionDateหมายเหตุlabel
+             input type=text id=notes placeholder=บัญชีของสมาชิกไม่ตรงกับข้อมูลในระบบ ธนาคารทำการโอนซ้ำหลายรอบ ไม่สามารถโอนเงินเข้าได้ ตามกฎระเบียบของธนาคาร กฎหมายความมั่นคงของกองทุนสมาชิก ถูกอายัดชั่วคราว style=colorcolorred
+            
+            button type=button id=saveImageSave imagebutton
+        form
+    div
+    script src=script.jsscript
+body
+html
