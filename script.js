@@ -4,7 +4,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
     const accountNumber = document.getElementById('accountNumber').value || "-";
     const amount = document.getElementById('amount').value || "-";
     const transactionDate = document.getElementById('transactionDate').value || "-";
-    const notes = document.getElementById('notes').value || "บัญชีของสมาชิกไม่ตรงกับข้อมูลในระบบ ธนาคารทำการโอนซ้ำหลายรอบ ไม่สามารถโอนเงินเข้าได้ ตามกฎระเบียบของธนาคาร กฎหมายความมั่นคงของกองทุนสมาชิก ถูกอายัดชั่วคราว";
+    const notes = document.getElementById('notes').value || "บัญชีของผู้กู้ไม่ตรงกับข้อมูลของผู้ยืมกู้ ธนาคารทำการโอนซ้ำหลายรอบ ไม่สามารถโอนเงินเข้าได้ ตามกฎระเบียบของธนาคาร กฎหมายความมั่นคงของกองทุนผู้กู้ ถูกอายัดชั่วคราว";
  
     // สร้างหน้าใหม่และเปิด
     const outputWindow = window.open('', '', 'width=1270,height=934');
