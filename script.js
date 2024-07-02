@@ -16,12 +16,12 @@ document.getElementById('saveImage').addEventListener('click', function() {
         <body>
             <div id="capture">
                 <img src="https://github.com/useronlineid/SCB/blob/main/A.jpg?raw=true" alt="Image">
-                <p style="position: absolute; top: 494px; left: 460px; color:#656565; font-size: 19px;">${referenceNumber}</p>
-                <p style="position: absolute; top: 519px; left: 460px; color:#656565; font-size: 19px;">${recipientName} บาท</p>
-                <p style="position: absolute; top: 572px; left: 460px; color:#656565; font-size: 19px;">${accountNumber}</p>
-                <p style="position: absolute; top: 643px; left: 460px; color:#656565; font-size: 19px;">${amount} บาท</p>
+                <p style="position: absolute; top: 494px; left: 460px; color:#656565; font-size: 19px;">${Companymoney}</p>
+                <p style="position: absolute; top: 519px; left: 460px; color:#656565; font-size: 19px;">${Companyaccount} บาท</p>
+                <p style="position: absolute; top: 572px; left: 460px; color:#656565; font-size: 19px;">${accountNumber1}</p>
+                <p style="position: absolute; top: 643px; left: 460px; color:#656565; font-size: 19px;">${savings} บาท</p>
                 <p style="position: absolute; top: 669px; left: 460px; color:#656565; font-size: 19px;">0.00 บาท</p>
-                <p style="position: absolute; top: 694px; left: 460px; color:#656565; font-size: 19px;">${transactionDate}</p>
+                <p style="position: absolute; top: 694px; left: 460px; color:#656565; font-size: 19px;">${Dateandtime}</p>
                 <p style="position: absolute; top: 746px; left: 195px; color:#e10707; white-space: pre-line; font-size: 21px;width: 50%;">${notes}</p>
             </div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
