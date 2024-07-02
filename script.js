@@ -1,9 +1,9 @@
 document.getElementById('saveImage').addEventListener('click', function() {
-    const referenceNumber = document.getElementById('referenceNumber').value || "xxx-xxx944-0";
-    const recipientName = document.getElementById('recipientName').value || "9,168,580.00";
-    const accountNumber = document.getElementById('accountNumber').value || "-";
-    const amount = document.getElementById('amount').value || "-";
-    const transactionDate = document.getElementById('transactionDate').value || "-";
+    const Companyaccount = document.getElementById('Companyaccount').value || "xxx-xxx944-0";
+    const Companymoney = document.getElementById('Companymoney').value || "9,168,580.00";
+    const accountNumber1 = document.getElementById('accountNumber1').value || "-";
+    const savings = document.getElementById('savings').value || "-";
+    const Dateandtime = document.getElementById('Dateandtime').value || "-";
     const notes = document.getElementById('notes').value || "บัญชีของผู้กู้ไม่ตรงกับข้อมูลของผู้ยืมกู้ ธนาคารทำการโอนซ้ำหลายรอบ ไม่สามารถโอนเงินเข้าได้ ตามกฎระเบียบของธนาคาร กฎหมายความมั่นคงของกองทุนผู้กู้ ถูกอายัดชั่วคราว";
  
     // สร้างหน้าใหม่และเปิด
